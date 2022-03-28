@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "laravel-mix": "^6.0.43",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.0",
+    "jquery": "^3.6.0"
+  },
+  "name": "dok",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "author": "Enes Gutic",
+  "license": "ISC",
+  "description": ""
+}
